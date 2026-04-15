@@ -50,7 +50,7 @@ public class PathTraversalExample
             String filename = ctx.request().getParam("name");
 
             // No path validation before deleting
-            File target = new File(BASE_DIR + File.separator + filename);
+            File target = new File(BASE_DIR, filename);
             try
             {
                 Files.delete(target.toPath());
