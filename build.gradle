@@ -21,7 +21,7 @@ dependencies {
     implementation "io.vertx:vertx-rx-java2:$versionVertx"
     implementation "io.vertx:vertx-sql-client:$versionVertx"
 
-    testImplementation "io.vertx:vertx-junit5:4.5.6"
+    testImplementation "io.vertx:vertx-junit5:5.1.1"
     testImplementation "org.junit.jupiter:junit-jupiter-api:$versionJunit"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:$versionJunit"
 }
